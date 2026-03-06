@@ -44,8 +44,8 @@ export const heroConfig: HeroProps = {
     href: "#pricing",
   },
   secondaryCTA: {
-    label: "See how it works",
-    href: "#features",
+    label: "Try the demo",
+    href: "/demo",
   },
 }
 
@@ -204,6 +204,7 @@ export const footerConfig: FooterProps = {
       links: [
         { label: "Features", href: "#features" },
         { label: "Pricing", href: "#pricing" },
+        { label: "Demo", href: "/demo" },
         { label: "Changelog", href: "#" },
       ],
     },
